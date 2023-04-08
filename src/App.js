@@ -1,9 +1,14 @@
 import './App.css';
+import TopBar from './components/TopBar.js'
+import Location from './components/Location.js'
+import Browse from './components/Browse.js'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="Main">
+      <TopBar />
+      <Location />
+      <Browse />
     </div>
   );
 }
